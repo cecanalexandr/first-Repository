@@ -1,0 +1,22 @@
+package com.class23;
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println("-----Creating Employee object----");
+		Employee emp=new Employee();
+		emp.salary=90000;
+		emp.getPaid();
+		
+		System.out.println("-----Creating ScrumTeam object----");
+		ScrumTeam st=new ScrumTeam();
+		st.salary=10000;
+		st.getPaid();
+		st.artifacts="Product Backlog,Sprint Backlog,BUrnDown char";
+		st.ceremonies="Sprint grooming,Sprint Planning,Daily StanUp,Sprint Demo,Sprint Retro";
+		st.attendScrumMeetings();
+		st.workOnArtifacts();
+		
+	}
+
+}

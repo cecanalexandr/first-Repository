@@ -1,0 +1,22 @@
+package com.class14;
+
+public class StringManipulations {
+
+	public static void main(String[] args) {
+		// 1 replace()
+
+		String str="I am good tester";
+		String newStr=str.replace("a", "e");
+		System.out.println(newStr);
+		
+		String newStr1=str.replace("good", "great");
+		System.out.println(newStr);
+		
+		String newStr2=str.replace("tester","programmer");
+		System.out.println(newStr2);
+		
+		String newStr3=str.replace("Tester", "programmer");
+		System.out.println(newStr3);
+	}
+
+}

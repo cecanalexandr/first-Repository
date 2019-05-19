@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.class22.ConstractorTypes.java&apos; to &apos;ConstructorTypes.java&apos;&#x0D;&#x0A;- Original project: &apos;Java-Code-Class&apos;&#x0D;&#x0A;- Original element: &apos;com.class22.ConstractorTypes.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.class22.ConstructorTypes.java&apos;" description="Rename compilation unit &apos;ConstractorTypes.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.class22{ConstractorTypes.java" name="ConstructorTypes.java" references="false" stamp="1555171707484" version="1.0"/>
+</session>

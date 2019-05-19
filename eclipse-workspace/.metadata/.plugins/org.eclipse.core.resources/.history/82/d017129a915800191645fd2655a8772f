@@ -1,0 +1,16 @@
+package com.class17;
+
+public class calculator {
+
+	public static void main(String[] args) {
+		
+		calculator demo=new calculator();
+		demo.calculator(10,20);
+		
+
+	}void calculator(int a,int b){
+		
+		System.out.println(a+b);
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.class17version2;
+
+public class exemple2 {
+
+	public static void main(String[] args) {
+		
+		exemple2 demo= new exepmle2();
+		demo.method();
+	}
+
+void method () {
+	for(int i=5; i>=1;i--) {
+		for(int y=5; y>=1;y--) {
+			System.out.print(y);
+		}
+		System.out.println();
+	}
+}
+}
+
+
+

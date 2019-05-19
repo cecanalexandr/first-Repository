@@ -1,0 +1,18 @@
+package com.class22;
+/*
+ * Write a program that will have a constructor: one with parameters and second
+ * without any parameters. Create a separate Test class where you will execute
+ * both of the constructors.
+ */
+public class Task {
+	public String name;
+	
+	Task(name){
+		System.out.println();
+	}
+
+	public static void main(String[] args) {
+		Task obj1=new Task();
+	}
+
+}

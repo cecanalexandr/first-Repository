@@ -1,0 +1,67 @@
+package ScannerClass;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// bwnk of america
+		
+		double mortgageRate=6.2;
+		int mortgagePrice=300000;
+
+		if (mortgageRate<=5.1) {
+			System.out.println("I will consider buying");
+		}else {
+			System.out.println("I will take a loan");
+		}
+		if (mortgagePrice<=500000) {
+			System.out.println(" I will pay cash");
+		}else {
+			System.out.println("I will not buying");
+		}
+	 
+	
+	 int age=23;
+	 
+	 if (age>=21) {
+		 System.out.println("I can drink alcohol");
+	 }else if (age<=18){
+		 System.out.println("My age is " +age+ " and I cannot drink");
+	 }
+	 
+	 
+	 int players=15;
+	 
+	 if (players>=11) {
+		 System.out.println("We will play ");
+	 }else if (players<11){
+		 System.out.println("We will not play ");
+	 
+		
+	 }
+	
+	 
+	 
+	 
+	 
+	 
+	 String oneColor= "red";
+	 String twoColor= "";
+	 
+	 if (oneColor == "white") {
+		 System.out.println(oneColor +" is my correct color ");
+		 
+	 }else  {
+		 System.out.println("This is not the color am looking");
+		 
+	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	}
+}

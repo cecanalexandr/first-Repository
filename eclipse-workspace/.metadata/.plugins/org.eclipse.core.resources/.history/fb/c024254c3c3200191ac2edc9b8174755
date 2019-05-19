@@ -1,0 +1,40 @@
+package com.class1;
+
+public class DateType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        //creating variables
+		//numbers family
+		byte b=-128;
+		short s=3276;
+		int i=678769;
+		long l=758755857866l;
+		
+		//numbers with decimals
+		float f=2.2f;
+		double d=3.7685665465;
+		
+		//character
+		char ='a';
+		
+		//boolean (true or false)
+		boolean g=false
+				//sting
+				string str="A123$#8";
+		System.out.prinln(b);
+		System.out.prinln(s);
+		System.out.prinln(i);
+		System.out.prinln(l);
+		System.out.prinln(f);
+		System.out.prinln(d);
+		System.out.prinln(a);
+		System.out.prinln(g);
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package ScannerClass;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// bwnk of america
+		
+		double mortgageRate=6.2;
+		int mortgagePrice=300000;
+
+		if (mortgageRate<=5.1) {
+			System.out.println("I will consider buying");
+		}else {
+			System.out.println("I will take a loan");
+		}
+		if (mortgagePrice<=500000) {
+			System.out.println(" I will pay cash");
+		}else {
+			System.out.println("I will not buying");
+		}
+	 
+	
+	 int age=18;
+	 
+	 if (age>=21) {
+		 System.out.println("I can drink alcohol");
+	 }else {
+		 System.out.println("If is less I cant drink");
+	 }
+	 
+	}
+}

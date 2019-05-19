@@ -1,0 +1,26 @@
+package pack1;
+
+public class InsuranceOptions {
+	
+	InsuranceOptions(){
+		
+	}
+	
+	InsuranceOptions(String s, int r){
+		
+		
+	}
+	
+	InsuranceOptions (int i){
+		
+		System.out.println(i);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	new InsuranceOptions(5);
+		
+	}
+}
+

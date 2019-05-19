@@ -1,0 +1,13 @@
+package com.class23;
+
+public class TestCalculateArea {
+
+	public static void main(String[] args) {
+		
+		CalculatorArea obj=new CalculatorArea();
+		obj.square(10);
+		obj.Rectangle(20, 30);
+		obj.box(2, 2, 2);
+	}
+
+}

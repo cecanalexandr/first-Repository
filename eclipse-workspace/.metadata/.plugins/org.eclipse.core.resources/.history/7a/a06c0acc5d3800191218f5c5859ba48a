@@ -1,0 +1,21 @@
+package ScannerClass;
+
+import java.util.Scanner;
+
+public class practiceExe {
+
+	public static void main(String[] args) {
+		
+		int loan;
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("how much you want");
+		loan=scanner.nextInt();
+		System.out.println("loan");
+		if (loan<200) {
+			System.out.println("last than 200");
+		}
+		
+
+	}
+
+}

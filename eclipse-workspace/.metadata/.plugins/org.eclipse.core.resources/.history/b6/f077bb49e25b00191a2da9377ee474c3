@@ -1,0 +1,23 @@
+package com.class20;
+
+public class Aplication {
+	
+	
+	public void  andreaMethod() {
+		System.out.println("This is outside the main");
+	}
+	
+	public static void alex () {
+		System.out.println("This is Alex method");
+	}
+	
+	
+	
+public static void main(String []args) {
+	 Aplication obj = new Aplication();
+    obj.andreaMethod();
+    
+    alex();
+}
+	
+}

@@ -1,0 +1,15 @@
+package com.class17version2;
+
+public class ScannerMethod {
+	public static void main(String[] args) {
+		ScannerMethod obj=new 
+		
+	}
+	void sum(int a, int y) {
+		System.out.println(x +y);
+	}
+	void sub() {
+		int a=10,b=12;
+	}
+
+}

@@ -1,0 +1,57 @@
+package cam.class6;
+
+import java.util.Scanner;
+
+public class hw62 {
+
+	public static void main(String[] args) {
+//		Create a program that prompt user with question:  Do you need a loan?
+		
+//				If the result is true then prompt user with question: What is your credit score? Otherwise eligibility = "Unknown"
+//				Based on the score define users eligibility 
+//				if score is below  600 --> eligibility = "Not eligible"
+		
+//				if score is between 600 and 700 inclusive -->  eligibility = "Maybe eligible"
+		
+//				if score is between 701 and 800 inclusive -->  eligibility = "Eligible"
+//				if score is higher than any other previous values --> eligibility = "Definitely eligible" .   
+//
+//				The output of the program should be: "The eligibility is ____"
+		
+		
+		
+		
+		Scanner scan = new Scanner(System.in);
+		String elegibility = "";
+		System.out.println("Do you need a loan? ");
+
+		boolean objName = true;
+
+		objName = scan.nextBoolean();
+
+		if (objName) {
+			System.out.println("What is your credit score?");
+		} else {
+			elegibility = "Unknown";
+		}
+
+		int creditScore = scan.nextInt();
+
+		if (creditScore < 600) {
+			elegibility = "Not eligible";
+
+		} else if (creditScore >= 601 && creditScore <= 700) {
+			elegibility = "Maybe eligible";
+
+		} else if (creditScore >= 701 && creditScore <= 800) {
+			elegibility = "Eligible";
+
+		} else if (creditScore >= 801) {
+			elegibility = "Definitely eligible";
+
+		}
+
+		System.out.println("The eligibility is " + elegibility);
+	
+	}
+}

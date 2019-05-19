@@ -1,0 +1,14 @@
+package com.class20;
+
+public class Aplication {
+	
+	
+	public static void  andreaMethod() {
+		System.out.println("This is outside the main");
+	}
+	
+public static void main(String []args) {
+	
+}
+	
+}

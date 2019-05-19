@@ -1,0 +1,15 @@
+package pack1;
+
+public class Snippet {
+	String mixString(String s1,s2)
+	{
+		
+	}
+	
+	//test case below (dont change):
+	public static void main(String[] args){
+		System.out.println(mixString("12345","abcde")); //should be 1a2b3c4d5e
+		System.out.println(mixString("howdy","hello")); //should be hhoewldlyo
+	}
+}
+

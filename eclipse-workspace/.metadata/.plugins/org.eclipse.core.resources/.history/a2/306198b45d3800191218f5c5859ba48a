@@ -1,0 +1,19 @@
+package ScannerClass;
+
+import java.util.Scanner;
+
+public class practiceExe {
+
+	public static void main(String[] args) {
+		
+		int loan;
+		Scanner scanner=new Scanner(System.in);
+		System.out.println(" you need to ask");
+		int 200=scanner.next.Int();
+		System.out.println("the amount of loun is");
+		if (loun<200);
+		
+
+	}
+
+}

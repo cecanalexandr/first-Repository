@@ -1,0 +1,9 @@
+package com.class20;
+
+public class Aplication {
+	
+public static void main(String []args) {
+	task3 obj= new task3();
+}
+	
+}

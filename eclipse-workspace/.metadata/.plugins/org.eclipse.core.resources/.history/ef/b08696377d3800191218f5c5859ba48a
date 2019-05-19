@@ -1,0 +1,34 @@
+package ScannerClass;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		
+		double mortgageRate=4.8;
+		int mortgagePrice=300000;
+				
+				if (mortgageRate<4.5) {
+					
+					System.out.println("I will consider buying ");}
+			
+				else { System.out.println("I will take a loan");
+				}
+						
+				if (mortgagePrice<200000)	{
+					System.out.println("I will pay cash");
+					
+				}else {System.out.println("I will not buy the house");} 
+					
+					
+					
+					
+//						System.out.println("Iam paying with cash");
+//				}else if {
+//					System.out.println("I will take loan");
+//				} else{loan
+//					System.out.println("I will not bay that house");
+//				}
+		
+	}
+
+}

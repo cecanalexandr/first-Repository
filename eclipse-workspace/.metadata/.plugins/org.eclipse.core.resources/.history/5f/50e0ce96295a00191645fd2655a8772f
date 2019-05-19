@@ -1,0 +1,22 @@
+package pack1;
+
+public class human {
+
+	static String eyeColour = "Brown";
+	static int height = 10;
+	int weight=180;
+	String gender ="F";
+	String programmingLanguage="Java";
+
+	void speak() {
+		
+		String language="English";
+		System.out.println("Human can speak " + language +eyeColour);
+	}
+	void coding() {
+		System.out.println("Syntax students can code");
+	}
+	static void print() {
+		System.out.println(eyeColour +"***************");
+	}
+}

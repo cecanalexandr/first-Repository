@@ -1,0 +1,21 @@
+package ScannerClass;
+
+import java.util.Scanner;
+
+public class ScannerPractice {
+
+	public static void main(String[] args) {
+		
+		Scanner myselfInfo = new Scanner (System.in);
+		
+		System.out.println("Who you are?");
+		
+		String fname = myselfInfo.nextLine();
+		
+		System.out.println("Where are you from?");
+		
+		String countryName =myselfInfo.nextLine();
+
+	}
+
+}

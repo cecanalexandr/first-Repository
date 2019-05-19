@@ -1,0 +1,13 @@
+package com.class17_2;
+
+import com.class17.calculator;
+
+public class Application1 {
+
+	public static void main(String[] args) {
+		
+		calculator demo1=new calculator();
+		demo1.sum(45, 66);
+	}
+
+}
