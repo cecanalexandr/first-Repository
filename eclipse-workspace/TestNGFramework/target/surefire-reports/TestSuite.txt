@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 27.224 sec <<< FAILURE!
+excelTest(com.syntax.practice.ExcelFunctionsTest)  Time elapsed: 2.484 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.syntax.utils.ExcelUtility.getRowNum(ExcelUtility.java:51)
+	at com.syntax.practice.ExcelFunctionsTest.excelTest(ExcelFunctionsTest.java:21)
+
+doLogin(com.syntax.testcases.LoginPageTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.syntax.testcases.LoginPageTest.doLogin(LoginPageTest.java:51)
+
+loginToOrangeHRM(com.syntax.testcases.LoginPageTest)  Time elapsed: 0.087 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.syntax.testcases.LoginPageTest.loginToOrangeHRM(LoginPageTest.java:27)
+
+negativeLogin(com.syntax.testcases.LoginPageTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.syntax.testcases.LoginPageTest.negativeLogin(LoginPageTest.java:75)
+
